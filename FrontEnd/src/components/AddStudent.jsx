@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 
 const AddStudent = ({ onClose,fetchAllStudents }) => {
 
-    const courses = ["fullstack", "frontend", "backend", "ui&ux"]
+    const courses = ["fullstack", "frontend", "backend", "ui&ux","flutter"]
     const [student, setStudent] = useState({})
 
     const handleOnChange = (e) => {
